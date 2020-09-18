@@ -1,0 +1,103 @@
+p{
+	font-family: 'Titillium Web', sans-serif;;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+	color: #4d4d33;
+}	
+
+h1{
+	color: #999966;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+}
+
+h3{
+	color: #4d4d33;
+	text-align: center;
+	margin-top: 10px;
+}
+
+h4{
+	color: #4d4d33;
+}
+
+body{
+	background: url('../images/nice_snow.png');
+}
+
+
+img{
+	width: 20%;
+	margin: 0 auto;
+	opacity: .9;
+}
+
+ul {
+
+	list-style-type: none;
+}
+
+#otherPages p:hover{
+	color: #009933;
+}
+
+#otherPages ul:hover{
+	color: #009933;
+}
+
+#welcome {
+	text-align: center;
+}
+
+.carousel-item p{
+	color:	#1a1a1a;
+	font-style: oblique;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item h4{
+	color:	#1a1a1a;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 50%;
+	object-fit: cover;
+  }
+
+  .carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	margin: 10px;
+	/* background-color: purple; */
+	border: 1px solid #fff;
+  }
+
+/* .carousel{
+	border: 2px solid red;
+	height: 10%;
+	width: 100%
+} */
+
+
+/* .carousel-item img{
+	width:100;
+} */
+
+.carousel-item{
+    width: 100%; /*width you want*/
+    height: 700px; /*height you want*/
+	/* overflow: hidden; */
+	/* object-fit: contain; */
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
