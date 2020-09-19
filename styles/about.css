@@ -1,22 +1,22 @@
-.jumbotron{
-	background: url('../images/ummaFront.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	height: 600px;
-	margin: 10px;
-	color: #f2f2f2;
+.jumbotron {
+  background: url("../images/ummaFront.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 10px;
+  color: #f2f2f2;
 }
 
-textarea{
-	width: 0 auto;
+textarea {
+  width: 0 auto;
 }
 
 body {
-	background: url('../images/nice_snow.png');
-	padding-top: 70px;
+  /* background-color: #edf2ef; */
+  padding-top: 70px;
 }
 
-p{
-	font-family: 'Crimson Text', serif;
-	font-size: 17px;
+p {
+  font-family: "Crimson Text", serif;
+  font-size: 17px;
 }

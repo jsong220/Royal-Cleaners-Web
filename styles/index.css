@@ -1,82 +1,113 @@
-p{
-	font-family: 'Titillium Web', sans-serif;;
-	font-size: 14px;
-	line-height: 1.5;
-	text-align: center;
-	color: #4d4d33;
-}	
-
-h1{
-	color: #999966;
-	text-align: center;
-	font-family: 'Inconsolata', monospace;
+div {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 0 auto;
 }
 
-h3{
-	color: #4d4d33;
-	text-align: center;
-	margin-top: 10px;
+p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  /* color: #4d4d33; */
 }
 
-h4{
-	color: #4d4d33;
+h1 {
+  color: #999966;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
 }
 
-body{
-	background: url('../images/nice_snow.png');
+h3 {
+  /* color: #4d4d33; */
+  text-align: center;
+  margin-top: 10px;
 }
 
+h4 {
+  color: #4d4d33;
+}
 
-img{
-	width: 20%;
-	margin: 0 auto;
-	opacity: .9;
+/* TODO: SOMETHING WRONG RIGHT SIDE IS SHOWING WHITE */
+html,
+body {
+  /* background: url('../images/nice_snow.png'); */
+  /* background-color: #edf2ef; */
+  /*
+  background-color: transparent;
+  animation-name: test;
+  animation-duration: 5s;
+   animation-fill-mode: forwards; //so that final effect stays in effect
+   animation-iteration-count: infinite; //to keep animation going forever
+  */
+  /* margin: 0;
+  padding: 0; */
+}
+
+/*
+@keyframes test{
+  0%{
+    background-color: black;
+  }
+  50%{
+    background-color: yellow;
+  }
+  100%{
+  background-color: purple;
+  }
+}
+*/
+
+
+img {
+  width: 20%;
+  margin: 0 auto;
+  opacity: 0.9;
 }
 
 ul {
-
-	list-style-type: none;
+  list-style-type: none;
 }
 
-#otherPages p:hover{
-	color: #009933;
+#otherPages p:hover {
+  color: #009933;
 }
 
-#otherPages ul:hover{
-	color: #009933;
+#otherPages ul:hover {
+  color: #009933;
 }
 
 #welcome {
-	text-align: center;
+  text-align: center;
 }
 
-.carousel-item p{
-	color:	#1a1a1a;
-	font-style: oblique;
-	font-weight: bold;
-	font-family: 'Roboto', sans-serif;
+.carousel-item p {
+  color: #1a1a1a;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
-.carousel-item h4{
-	color:	#1a1a1a;
-	font-weight: bold;
-	font-family: 'Roboto', sans-serif;
+.carousel-item h4 {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .carousel-item img {
-	width: 100%;
-	height: 50%;
-	object-fit: cover;
-  }
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
 
-  .carousel-indicators li {
-	width: 10px;
-	height: 10px;
-	border-radius: 100%;
-	margin: 10px;
-	/* background-color: purple; */
-	border: 1px solid #fff;
-  }
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 10px;
+  /* background-color: purple; */
+  border: 2px solid #05200c;
+}
 
 /* .carousel{
 	border: 2px solid red;
@@ -84,20 +115,96 @@ ul {
 	width: 100%
 } */
 
-
 /* .carousel-item img{
 	width:100;
 } */
 
-.carousel-item{
-    width: 100%; /*width you want*/
-    height: 700px; /*height you want*/
-	/* overflow: hidden; */
-	/* object-fit: contain; */
-}
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-    object-fit: scale-down;
+.carousel-item {
+  width: 100%;
+  /*width you want*/
+  height: 700px;
+  /*height you want*/
+  /* overflow: hidden; */
+  /* object-fit: contain; */
 }
 
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer div {
+  /* border: 1px solid red; */
+  /* float: left; */
+  /* margin: 0 auto; */
+}
+
+.footer {
+  /* border: 1px solid purple; */
+  /* position: absolute; */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+/* get rid of small spaces to left and right */
+.section-welcome,
+.section-oclean,
+.section-about,
+.section-price {
+  padding: 0;
+}
+
+.section-welcome h2,
+.section-oclean h2,
+.section-about h2,
+.section-price h2 {
+  margin-top: 150px;
+}
+
+.welcome-info p,
+.oclean-info p,
+.about-info ul,
+.price-info p {
+  margin: 10px auto 150px auto;
+}
+
+.welcome-img {
+  /* border: 1px solid red; */
+  background-image: url(../images/cleanersFront.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  height: 450px;
+  opacity: 0.8;
+  color: red;
+}
+
+.oclean-img {
+  /* border: 1px solid red; */
+  background-image: url("https://images.unsplash.com/photo-1511334306047-77b873c1970e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  height: 450px;
+  opacity: 0.8;
+}
+
+.about-img {
+  /* border: 1px solid red; */
+  background-image: url("https://images.pexels.com/photos/4386143/pexels-photo-4386143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  height: 450px;
+  opacity: 0.8;
+}
