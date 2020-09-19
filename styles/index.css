@@ -28,37 +28,6 @@ h4 {
   color: #4d4d33;
 }
 
-/* TODO: SOMETHING WRONG RIGHT SIDE IS SHOWING WHITE */
-html,
-body {
-  /* background: url('../images/nice_snow.png'); */
-  /* background-color: #edf2ef; */
-  /*
-  background-color: transparent;
-  animation-name: test;
-  animation-duration: 5s;
-   animation-fill-mode: forwards; //so that final effect stays in effect
-   animation-iteration-count: infinite; //to keep animation going forever
-  */
-  /* margin: 0;
-  padding: 0; */
-}
-
-/*
-@keyframes test{
-  0%{
-    background-color: black;
-  }
-  50%{
-    background-color: yellow;
-  }
-  100%{
-  background-color: purple;
-  }
-}
-*/
-
-
 img {
   width: 20%;
   margin: 0 auto;
@@ -109,19 +78,8 @@ ul {
   border: 2px solid #05200c;
 }
 
-/* .carousel{
-	border: 2px solid red;
-	height: 10%;
-	width: 100%
-} */
-
-/* .carousel-item img{
-	width:100;
-} */
-
 .carousel-item {
   width: 100%;
-  /*width you want*/
   height: 700px;
   /*height you want*/
   /* overflow: hidden; */
