@@ -16,6 +16,13 @@ p {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
 .thumbnail {
   position: relative;
 }

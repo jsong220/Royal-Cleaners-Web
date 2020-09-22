@@ -20,3 +20,10 @@ p {
   font-family: "Crimson Text", serif;
   font-size: 17px;
 }
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+  padding-top: 10px;
+}
